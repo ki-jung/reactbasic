@@ -73,16 +73,13 @@ export default function Component() {
     // - 다수의 요소를 반환하고 싶다면 최상단에 부모 요소로 묶어줘야함
     // - 부모 요소로 묶을 때 <></>를 이용하여 의미없는 태그를 생성 할 수 있음
 
-    // - 반드시 return 바로 뒤에 반환값이 있어야함
-
-    // JSX(TSX)의 규칙
     // 1. 반드시 하나의 요소를 반환
     // 2. 모든 태그를 닫아야함
     // 3. 속성들을 JSX로 지저된 이름을 사용해야 함 (lowerCamelCase)
     // 4. 주석을 사용할 땐 {/* */}를 사용
     return (
         <>
-            {/*<input className='' /> */}
+            {/*<input classN-+ame='' /> */}
             <div>Function Component</div>
             <div>Function Component</div>
         </>
